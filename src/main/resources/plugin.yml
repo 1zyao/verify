@@ -1,0 +1,14 @@
+name: verify
+version: '${version}'
+main: org.zyao97323.verify.Verify
+api-version: '1.16'
+permissions:
+  verify.reload:
+    description: Allows players to reload the configuration file
+    default: op
+commands:
+  verify:
+    description: verify
+    usage: /verify
+    permission: verify.me
+    permission-message: no permission

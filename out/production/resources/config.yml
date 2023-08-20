@@ -1,0 +1,25 @@
+#服务器名称
+server-name: test
+
+#语言
+lang: zh_cn
+
+# SQLite 数据库文件名
+sqlitedatabase-filename: player_birthdates.db
+
+mysql:
+  #是否开启mysql数据库存储
+  #若关闭则使用sqlite存储玩家数据
+  enable: false
+  #数据库服务器地址
+  host: localhost
+  #数据库服务器端口
+  port: 3306
+  #数据库用户名
+  user: root
+  #数据库密码
+  password: 123456
+  #数据库名
+  database: minecraft
+  #数据表名
+  table: verify
